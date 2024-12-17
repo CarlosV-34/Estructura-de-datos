@@ -194,6 +194,8 @@ int anyoMasFrecuente() const;
 
 #endif
 
+
+
 #include <iostream>
 #include <vector>
 #include <string>
@@ -314,7 +316,7 @@ int main() {
 
         } else if (metodo == "aCadena") {
             // Imprimir el calendario completo
-            cout << calendario.aCadena(categorias);
+            cout << calendario.aCadena(categorias) << endl;
 
 
         } else if (metodo == "aCadenaPorTitulo") {
@@ -336,6 +338,8 @@ int main() {
     
     return 0;
 }
+
+
 
 #include<string>
 
@@ -921,6 +925,8 @@ string Evento::aCadena(const vector<string>& categorias) const{
     return resultado;
 }
 
+
+
 /*** Calendario ***/
 // Private
 map<Fecha,Evento> Calendario::getMapa() const{
@@ -1153,3 +1159,6 @@ int Calendario::anyoMasFrecuente() const{
     }
     return result;
 }
+
+
+
