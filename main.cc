@@ -121,7 +121,7 @@ int main() {
 
         } else if (metodo == "aCadena") {
             // Imprimir el calendario completo
-            cout << calendario.aCadena(categorias);
+            cout << calendario.aCadena(categorias) << endl;
 
 
         } else if (metodo == "aCadenaPorTitulo") {
